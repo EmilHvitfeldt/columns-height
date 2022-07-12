@@ -1,0 +1,23 @@
+---
+format:
+  revealjs: 
+    theme: [default, tidymodels.scss]
+knitr:
+  opts_chunk: 
+    echo: true
+---
+
+## Building a model stack
+
+```{r}
+#| output-location: column
+#| collapse: false
+#| comment: NULL
+#| fig-width: 5
+#| fig-height: 5.1
+#| fig-align: 'center'
+library(ggplot2)
+ggplot(mtcars, aes(mpg, disp)) +
+  geom_point()
+```
+
